@@ -30,6 +30,7 @@ For every i the value of x - xi and all i before are multiplied. The results are
 To better understand this equation i will write this for i = 0, i = 1 and i = 2
 
 */
+
 int interPolNew(std::string file) {
 	return 0;
 }

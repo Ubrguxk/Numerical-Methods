@@ -1,5 +1,5 @@
-#ifndef LAGRANGEINTERPOL_H
-#define LAGRANGEINTERPOL_H
+#ifndef NEWTONINTERPOL_H
+#define NEWTONINTERPOL_H
 
 #include <string>
 
