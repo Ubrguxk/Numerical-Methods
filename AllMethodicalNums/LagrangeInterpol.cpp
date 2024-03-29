@@ -16,7 +16,7 @@ Where:
 - x: given by the user
 
 1. I𝑖 (𝑥) = ∏ (𝑥 − 𝑥𝑗) / (𝑥𝑖 − 𝑥𝑗)
-To better explain this equation, I will write it for i = 0 and i = 1:
+To better explain this equation, let's expand it for i = 0 and i = 1:
 
 I0 = ((x-x1)(x-x2)(x-x3))/(x0 - x1)(x0 - x2)(x0 - x3)
 I1 = ((x-x0)(x-x2)(x-x3))/(x1 - x0)(x1 - x2)(x1 - x3)
@@ -88,7 +88,7 @@ float senTwo(int** Tab, float* Results, int sizeTab) {
 	return finish;
 }
 
-int interPolLag(std::string file) {
+float interPolLag(std::string file) {
 	/*
 	This function conducts all the necessary calculations for Lagrange Interpolation.
 

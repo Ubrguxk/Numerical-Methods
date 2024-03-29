@@ -3,6 +3,6 @@
 
 #include <string>
 
-int interPolNew(std::string file);
+float interPolNew(std::string file);
 
 #endif

@@ -49,7 +49,7 @@ int main() {
 		std::cout << "t - Solving system of linear equations using LU decomposition" << std::endl;
 		std::cout << "z - exit" << std::endl;
 		char x;
-		int res;
+		float res;
 		std::cin >> x;
 		switch (x) {
 			case 'q':

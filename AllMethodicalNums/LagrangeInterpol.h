@@ -3,6 +3,6 @@
 
 #include <string>
 
-int interPolLag(std::string file);
+float interPolLag(std::string file);
 
 #endif
