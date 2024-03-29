@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include "LagrangeInterpol.h"
 #include "NewtonInterpol.h"
+#include "GaussMethod.h"
 #include <fstream>
 
 /*		Numerical Methods - various task
@@ -24,9 +25,9 @@ Where:
 𝑝𝑘 = ∏ (𝑥 − 𝑥𝑖)
 𝑏𝑘 = ∑ (𝑓(𝑥𝑖))/(∏ (𝑥𝑖 − 𝑥𝑗))
 
-3. Solving system of linear equations using Gauss method. Not Including where diagonal is 0
+3. Solving system of linear equations using Gauss method. Not Including where diagonal can be 0
 
-4. Solving system of linear equations using Gauss method. Including where diagonal is 0
+4. Solving system of linear equations using Gauss method. Including where diagonal can be 0
 
 5.Solving system of linear equations using LU decomposition 
 
@@ -34,7 +35,7 @@ Where:
 
 int main() {
 	while (true) {
-		std::string file = "NewtonData-1.txt";
+		std::string file = "GaussData-1.txt";
 		std::ifstream fileRead(file);
 		if (!fileRead.good()) {
 			std::cout << "File not found" << std::endl;
@@ -44,8 +45,8 @@ int main() {
 		std::cout << "Currently read file - " << file << std::endl << std::endl;
 		std::cout << "q - Lagrange Interpolation" << std::endl;
 		std::cout << "w - Newton Interpolation" << std::endl;
-		std::cout << "e - Solving system of linear equations using Gauss method" << std::endl << "		^ Not Including where diagonal is 0" << std::endl;
-		std::cout << "r - Solving system of linear equations using Gauss method" << std::endl << "		^ Including where diagonal is 0" << std::endl;
+		std::cout << "e - Solving system of linear equations using Gauss method" << std::endl << "		^ Not Including where diagonal can be 0" << std::endl;
+		std::cout << "r - Solving system of linear equations using Gauss method" << std::endl << "		^ Including where diagonal can be 0" << std::endl;
 		std::cout << "t - Solving system of linear equations using LU decomposition" << std::endl;
 		std::cout << "z - exit" << std::endl;
 		char x;

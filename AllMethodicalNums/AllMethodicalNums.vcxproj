@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GaussMethod.cpp" />
+    <ClCompile Include="GaussMethodExtension.cpp" />
     <ClCompile Include="LagrangeInterpol.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="NewtonInterpol.cpp" />
@@ -134,6 +136,8 @@
     <ClCompile Include="ReadingMatrixFromTab.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GaussMethod.h" />
+    <ClInclude Include="GaussMethodExtension.h" />
     <ClInclude Include="LagrangeInterpol.h" />
     <ClInclude Include="NewtonInterpol.h" />
     <ClInclude Include="ReadingMatrixFromTab.h" />

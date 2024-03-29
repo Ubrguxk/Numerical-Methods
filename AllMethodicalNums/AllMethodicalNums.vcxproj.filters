@@ -29,6 +29,12 @@
     <ClCompile Include="NewtonInterpol.cpp">
       <Filter>Pliki źródłowe\Codes</Filter>
     </ClCompile>
+    <ClCompile Include="GaussMethod.cpp">
+      <Filter>Pliki źródłowe\Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussMethodExtension.cpp">
+      <Filter>Pliki źródłowe\Codes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LagrangeInterpol.h">
@@ -38,6 +44,12 @@
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="NewtonInterpol.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussMethod.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussMethodExtension.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
