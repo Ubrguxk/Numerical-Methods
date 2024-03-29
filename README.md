@@ -10,6 +10,8 @@ It contains:
   - Solving system of linear equations using LU decomposition - not finished
 And more to be added in the future.
 
+The values which are calculated are provided from the files, can be changed in main.
+
 ## Technologies Used
 - It was written in Visual Studio using C++ 14.0
 
