@@ -129,16 +129,21 @@
   <ItemGroup>
     <ClCompile Include="GaussMethod.cpp" />
     <ClCompile Include="GaussMethodExtension.cpp" />
+    <ClCompile Include="JacobieMethod.cpp" />
     <ClCompile Include="LagrangeInterpol.cpp" />
+    <ClCompile Include="LUMethod.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MatrixCalculations.cpp" />
     <ClCompile Include="NewtonInterpol.cpp" />
-    <ClCompile Include="PickFile.cpp" />
     <ClCompile Include="ReadingMatrixFromTab.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GaussMethod.h" />
     <ClInclude Include="GaussMethodExtension.h" />
+    <ClInclude Include="JacobieMethod.h" />
     <ClInclude Include="LagrangeInterpol.h" />
+    <ClInclude Include="LUMethod.h" />
+    <ClInclude Include="MatrixCalculations.h" />
     <ClInclude Include="NewtonInterpol.h" />
     <ClInclude Include="ReadingMatrixFromTab.h" />
   </ItemGroup>

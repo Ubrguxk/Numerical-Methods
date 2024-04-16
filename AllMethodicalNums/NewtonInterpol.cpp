@@ -39,7 +39,7 @@ After calculating the values of bk and pk for each interpolation point, they are
 b1 * p1 + b2 * p2 + b3 * p3 + ....
 */
 
-float* pk(int** Tab, float x, int sizeTab) {
+float* pk(float** Tab, float x, int sizeTab) {
 	/*
 	This function calculates all of the pk values for the Interpolation.
 
@@ -68,7 +68,7 @@ float* pk(int** Tab, float x, int sizeTab) {
 
 }
 
-float* bk(int** Tab, int sizeTab) {
+float* bk(float** Tab, int sizeTab) {
 	/*
 	This function calculates all of the bk values for the Interpolation.
 
@@ -143,7 +143,7 @@ float interPolNew(std::string file) {
 
 	// Read file for needed joints and create a tab
 	int sizeTab = sizeOfTab(file);
-	int** Tab = readFile(2, file);
+	float** Tab = readFile(2, file);
 
 	// User provides interpolated x
 

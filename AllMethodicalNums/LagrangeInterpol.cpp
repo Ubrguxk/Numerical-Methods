@@ -31,7 +31,7 @@ After calculating the list of Ii values, we need to multiply them by their corre
 and sum up all of the multiplications.
 */
 
-float senOne(int** Tab, int i, float x, int sizeTab) {
+float senOne(float** Tab, int i, float x, int sizeTab) {
 	/*
 	This function calculates the numerator (top) of the Lagrange interpolation formula for a given x.
 
@@ -68,7 +68,7 @@ float senOne(int** Tab, int i, float x, int sizeTab) {
 	return res;
 }
 
-float senTwo(int** Tab, float* Results, int sizeTab) {
+float senTwo(float** Tab, float* Results, int sizeTab) {
 	/*
 	This function calculates the sum of the products of the function values (𝑓(𝑥𝑖)) and the individual Lagrange basis functions (I𝑖(𝑥)).
 
@@ -101,7 +101,7 @@ float interPolLag(std::string file) {
 
 	// Read file for needed joints and create a tab
 	int sizeTab = sizeOfTab(file);
-	int** Tab = readFile(2, file);
+	float** Tab = readFile(2, file);
 
 	// User provides interpolated x
 
